@@ -101,7 +101,9 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### JS Questions:
 
-* Explain event delegation
+##### Explain event delegation
+* [Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
+
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
