@@ -10,7 +10,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ## ------------> Interview Prep Tools & Reading <------------
 * [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
-### Whiteboarding & Algos
+##### Whiteboarding & Algos
 * [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
 * [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
 * [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
@@ -18,19 +18,21 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
 * [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
 
-### System Design
+##### System Design
 * [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
 * [Video: AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
 * [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
 
-### Learning Courses
+##### Learning Courses
 * [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
 
-### Tools
+##### Tools
 * [CodeNinja: Coding Flashcards](https://codecode.ninja/cards)
 
-### Misc Other Stuff
+##### Misc Other Stuff
 * [My Front End Developer Flash Cards](https://quizlet.com/Eliotmason/folders/front-end-developer-interview-questions)
+
+---
 
 ## React
 
