@@ -21,6 +21,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ##### System Design
 * [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
 * [Video: AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
+* [Video: CS75 Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
 * [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
 
 ##### Learning Courses
