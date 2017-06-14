@@ -19,7 +19,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 ### JS Questions:
 
-##### Explain event delegation
+##### ----- Explain event delegation ----- 
 > DOM event delegation is a mechanism of responding to ui-events via a single common parent rather than each child, through the magic of event "bubbling" (aka event propagation).
 
 ```javascript
@@ -38,10 +38,7 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
   * The event will "Bubble UP" when event (clicking) is triggered by the child element
   * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
 
-
-
-<!-- This is where we currently are -->
-* Explain how `this` works in JavaScript
+##### ----- Explain how `this` works in JavaScript ----- 
   * "This" refers to the **execution context**, or where (the scope) the code is currently executing
   * Four types of "this":
     * **Calling an Objects method**: when executing an objects method, the "this" keyword provides useful
