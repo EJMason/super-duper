@@ -40,7 +40,6 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Facebook: Handling 800k simultaneous viewers live](http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html)
 * [Kraken.io: Scaling image optimisation](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
 * [Twitter: 3,000 image uploads per second](http://highscalability.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html)
-[]
 
 
 ### Learning Courses
