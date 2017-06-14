@@ -10,6 +10,8 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ## ------------> Interview Prep Tools & Reading <------------
 [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
+[You don't know JS](https://github.com/getify/You-Dont-Know-JS)
+
 ### Whiteboarding & Algos
 * [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
 * [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
@@ -52,6 +54,9 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [My Front End Developer Flash Cards](https://quizlet.com/Eliotmason/folders/front-end-developer-interview-questions)
 
 ---
+## Awesome Github Repositories
+[Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#when-you-get-stuck)
+[Emojis](https://github.com/showcases/emoji)
 
 ## React
 
