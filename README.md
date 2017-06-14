@@ -23,6 +23,8 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Video: AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
 * [Video: CS75 Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
 * [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
+* [Articles: Scalability for Dummies](http://www.lecloud.net/tagged/scalability)  |  [Part I: Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)  |  [Part II: Databases](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)  |  [Part III: Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)  |  [Part IV: Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+
 
 ##### Learning Courses
 * [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
