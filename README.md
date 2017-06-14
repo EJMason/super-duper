@@ -19,12 +19,18 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
 
 ##### System Design
+[The is the go to source for Scalability and Big Data Techniques](http://highscalability.com/)
+###### Learning Tools
 * [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
+* [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
+###### Videos
 * [Video: AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
 * [Video: CS75 Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
-* [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
+###### Articles
 * [Articles: Scalability for Dummies](http://www.lecloud.net/tagged/scalability)  |  [Part I: Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)  |  [Part II: Databases](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)  |  [Part III: Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)  |  [Part IV: Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-
+* [Article: Scalable Architectures](http://tutorials.jenkov.com/software-architecture/scalable-architectures.html)
+* [Article: Load Balancing](http://tutorials.jenkov.com/software-architecture/load-balancing.html)
+* [Article: Database Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
 
 ##### Learning Courses
 * [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
