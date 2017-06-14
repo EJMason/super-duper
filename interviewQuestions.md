@@ -94,7 +94,6 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 // Exporting --> note: no default export, will break
 exports.myMethod = (word) => console.log(word)
 
-
 // Now import the above into another folder
 const importedMethods = require('./filename.js')
 importedMethods.myMethod('Hello, World!') 
@@ -116,12 +115,31 @@ define(['dep1', 'dep2'], function (dep1, dep2) {
 * [Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
 
 ---
-### Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
-  * What needs to be changed to properly make it an IIFE?
+### Explain why the following doesn't work as an IIFE: `function foo(){ }();`, What needs to be changed to properly make it an IIFE?
+```javascript
+function () {}; // just a declaration, so it cant be invoked
+(function() {}); // expression, returns a function, so it can be invoked
+(function() {})();
+```
+* [Great answer and other ways to IIFE](https://stackoverflow.com/a/31911000/3109222)
 
-* What's the difference between a variable that is: `null`, `undefined` or undeclared?
-  * How would you go about checking for any of these states?
+---
+### What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
+--- **undeclared** ---
+* doesn't use var keyword
+* gets created on the window, operates in different space than declared
+* find it, use strict mode
 
+--- **undefined** ---
+* variable that has not been defined yet, may have been defined
+* when attempting to use a variable that is undefined it will throw an error; also use (typeof varname === "undefined")
+
+-- **null** --
+* variable has been declared, and set to null. points to location in memory, but there is nothing there
+
+[Blog: Null vs Undefined vs undeclared](http://lucybain.com/blog/2014/null-undefined-undeclared/)
+
+---
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
 * How do you organize your code? (module pattern, classical inheritance?)
