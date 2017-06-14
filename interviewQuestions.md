@@ -37,7 +37,7 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
   * Regarding HTML, add an event listener (such as a click) to the parent element of similar children
   * The event will "Bubble UP" when event (clicking) is triggered by the child element
   * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
-
+---
 ##### ----- Explain how `this` works in JavaScript ----- 
   * "This" refers to the **execution context**, or where (the scope) the code is currently executing
   * Four types of "this":
@@ -72,8 +72,8 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 
   >In typical object-oriented programming, we need a way of identifying and referring to the object that we’re currently working with. "this" serves the purpose admirably, providing our objects the ability to examine themselves, and point at their own properties.
   [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
-
-* Explain how prototypal inheritance works
+---
+##### Explain how prototypal inheritance works
 
 * What do you think of AMD vs CommonJS?
 
