@@ -32,14 +32,14 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 	}
 });
 ```
+* Regarding HTML, add an event listener (such as a click) to the parent element of similar children
+* The event will "Bubble UP" when event (clicking) is triggered by the child element
+* e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
 
 * [Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
-  * Regarding HTML, add an event listener (such as a click) to the parent element of similar children
-  * The event will "Bubble UP" when event (clicking) is triggered by the child element
-  * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
 
 ---
-##### ----- Explain how `this` works in JavaScript: ----- 
+### ----- Explain how `this` works in JavaScript: ----- 
   * "This" refers to the **execution context**, or where (the scope) the code is currently executing
   * Four types of "this":
     * **Calling an Objects method**: when executing an objects method, the "this" keyword provides useful
@@ -72,10 +72,10 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
       ```
 
   >In typical object-oriented programming, we need a way of identifying and referring to the object that we’re currently working with. "this" serves the purpose admirably, providing our objects the ability to examine themselves, and point at their own properties.
-  [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
+  * [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
 
 ---
-##### ----- Explain how prototypal inheritance works: -----
+### ----- Explain how prototypal inheritance works: -----
 * Every object has a property called **prototype**
   * this is a pointer to another object
   * when setting a method protoype on an object, it puts that method on the pointer object
@@ -87,9 +87,7 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 * [Article explaining Prototypes](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
 
 ---
-##### ----- What do you think of AMD vs CommonJS? -----
-* [Article: Common.js vs Require.js vs Node Modules vs SystemJS?](https://auth0.com/blog/javascript-module-systems-showdown/)
-* [Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
+### ----- What do you think of AMD vs CommonJS? -----
 
 ###### Common.js
 ```javascript
@@ -111,13 +109,14 @@ define(['dep1', 'dep2'], function (dep1, dep2) {
 ```
 * Simplicity: CommonJS
 * Async: RequireJS (AMD) and Node (Better loading times)
-
 * Note: Both seem to be on their way out, Node is now asynchronous and with SPA's becoming more popular webpack is on the rise opening the door for **ES6 modules**
-
 * SystemJS? All-in-one
 
+* [Article: Common.js vs Require.js vs Node Modules vs SystemJS?](https://auth0.com/blog/javascript-module-systems-showdown/)
+* [Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
+
 ---
-##### Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+### Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
 
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
