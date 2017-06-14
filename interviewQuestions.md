@@ -36,7 +36,7 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 * The event will "Bubble UP" when event (clicking) is triggered by the child element
 * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
 
-* [Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
+[Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
 
 ---
 ### ----- Explain how `this` works in JavaScript: ----- 
@@ -72,7 +72,8 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
       ```
 
   >In typical object-oriented programming, we need a way of identifying and referring to the object that we’re currently working with. "this" serves the purpose admirably, providing our objects the ability to examine themselves, and point at their own properties.
-  * [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
+  
+  [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
 
 ---
 ### ----- Explain how prototypal inheritance works: -----
@@ -83,8 +84,10 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 * **Regarding inheritance**
   * If an object is created, it inherits its protype methods from its parent. That way each new object does not need to have its own method. It can look up the prototype chain to the parent and use that method. It is VERY performant.
 
-* [Funfunfunction Video Series: The best explanation of prototypes](https://www.youtube.com/watch?v=GhbhD1HR5vk&index=1&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
-* [Article explaining Prototypes](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
+
+[Funfunfunction Video Series: The best explanation of prototypes](https://www.youtube.com/watch?v=GhbhD1HR5vk&index=1&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
+
+[Article explaining Prototypes](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
 
 ---
 ### ----- What do you think of AMD vs CommonJS? -----
@@ -111,8 +114,9 @@ define(['dep1', 'dep2'], function (dep1, dep2) {
 * Note: Both seem to be on their way out, Node is now asynchronous and with SPA's becoming more popular webpack is on the rise opening the door for **ES6 modules**
 * SystemJS? All-in-one
 
-* [Article: Common.js vs Require.js vs Node Modules vs SystemJS?](https://auth0.com/blog/javascript-module-systems-showdown/)
-* [Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
+[Article: Common.js vs Require.js vs Node Modules vs SystemJS?](https://auth0.com/blog/javascript-module-systems-showdown/)
+
+[Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
 
 ---
 ### Explain why the following doesn't work as an IIFE: `function foo(){ }();`, What needs to be changed to properly make it an IIFE?
@@ -121,7 +125,8 @@ function () {}; // just a declaration, so it cant be invoked
 (function() {}); // expression, returns a function, so it can be invoked
 (function() {})();
 ```
-* [Great answer and other ways to IIFE](https://stackoverflow.com/a/31911000/3109222)
+
+[Great answer and other ways to IIFE](https://stackoverflow.com/a/31911000/3109222)
 
 ---
 ### What's the difference between a variable that is: `null`, `undefined` or undeclared? How would you go about checking for any of these states?
@@ -138,6 +143,8 @@ function () {}; // just a declaration, so it cant be invoked
 * variable has been declared, and set to null. points to location in memory, but there is nothing there
 
 [Blog: Null vs Undefined vs undeclared](http://lucybain.com/blog/2014/null-undefined-undeclared/)
+
+
 
 ---
 * What is a closure, and how/why would you use one?
