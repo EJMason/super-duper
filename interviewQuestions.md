@@ -17,9 +17,9 @@ This file contains a number of front-end interview questions that can be used wh
   8. [Coding Questions](#coding-questions)
   9. [Fun Questions](#fun-questions)
 
-### JS Questions:
-
-##### ----- Explain event delegation: ----- 
+## JS Questions:
+---
+### ----- Explain event delegation: ----- 
 > DOM event delegation is a mechanism of responding to ui-events via a single common parent rather than each child, through the magic of event "bubbling" (aka event propagation).
 
 ```javascript
