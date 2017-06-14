@@ -7,21 +7,130 @@ This file contains a number of front-end interview questions that can be used wh
 
 ## Table of Contents
 
-  1. [General Questions](#general-questions)
-  1. [HTML Questions](#html-questions)
-  1. [CSS Questions](#css-questions)
   1. [JS Questions](#js-questions)
-  1. [Testing Questions](#testing-questions)
-  1. [Performance Questions](#performance-questions)
-  1. [Network Questions](#network-questions)
-  1. [Coding Questions](#coding-questions)
-  1. [Fun Questions](#fun-questions)
+  2. [General Questions](#general-questions)
+  3. [HTML Questions](#html-questions)
+  4. [CSS Questions](#css-questions)
+  5. [Testing Questions](#testing-questions)
+  6. [Performance Questions](#performance-questions)
+  7. [Network Questions](#network-questions)
+  8. [Coding Questions](#coding-questions)
+  9. [Fun Questions](#fun-questions)
 
-## Getting Involved
+### JS Questions:
 
-  1. [Contributors](#contributors)
-  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTING.md)
-  1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
+##### Explain event delegation
+> DOM event delegation is a mechanism of responding to ui-events via a single common parent rather than each child, through the magic of event "bubbling" (aka event propagation).
+
+```javascript
+document.getElementById("parent-list").addEventListener("click", function(e) {
+	// e.target is the clicked element!
+	// If it was a list item
+	if(e.target && e.target.nodeName == "LI") {
+		// List item found!  Output the ID!
+		console.log("List item ", e.target.id.replace("post-", ""), " was clicked!");
+	}
+});
+```
+
+* [Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
+  * Regarding HTML, add an event listener (such as a click) to the parent element of similar children
+  * The event will "Bubble UP" when event (clicking) is triggered by the child element
+  * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
+
+
+
+<!-- This is where we currently are -->
+* Explain how `this` works in JavaScript
+  * "This" refers to the **execution context**, or where (the scope) the code is currently executing
+  * Four types of "this":
+    * **Calling an Objects method**: when executing an objects method, the "this" keyword provides useful
+    * **Constructor**: when using the NEW keyword, an object can set its own properties using "this"
+    * **Function call or Global**: when refering to "this" it will reference the most global object, usually window
+    * **Event Handler**:
+      * An inline event handler will refer to the **window** object
+      ```javascript
+      <script type="text/javascript"> 
+        function click_handler() { 
+          alert(this); // alerts the window object 
+        } 
+      </script>
+      <button id='thebutton' onclick='click_handler()'>Click me!</button>
+      ```
+      * However, adding an event with javascript "this" refers to the DOM element
+      ```javascript
+      <script type="text/javascript"> 
+        function click_handler() { 
+          alert(this); // alerts the button DOM node 
+        } 
+        
+        function addhandler() { 
+          document.getElementById('thebutton').onclick = click_handler; 
+        } 
+        
+        window.onload = addhandler; 
+      </script>
+      <button id='thebutton'>Click me!</button>
+      ```
+
+  >In typical object-oriented programming, we need a way of identifying and referring to the object that we’re currently working with. "this" serves the purpose admirably, providing our objects the ability to examine themselves, and point at their own properties.
+  [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
+
+* Explain how prototypal inheritance works
+
+* What do you think of AMD vs CommonJS?
+
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+  * What needs to be changed to properly make it an IIFE?
+
+* What's the difference between a variable that is: `null`, `undefined` or undeclared?
+  * How would you go about checking for any of these states?
+
+* What is a closure, and how/why would you use one?
+* What's a typical use case for anonymous functions?
+* How do you organize your code? (module pattern, classical inheritance?)
+* What's the difference between host objects and native objects?
+* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+* What's the difference between `.call` and `.apply`?
+* Explain `Function.prototype.bind`.
+* When would you use `document.write()`?
+* What's the difference between feature detection, feature inference, and using the UA string?
+* Explain Ajax in as much detail as possible.
+* What are the advantages and disadvantages of using Ajax?
+* Explain how JSONP works (and how it's not really Ajax).
+* Have you ever used JavaScript templating?
+  * If so, what libraries have you used?
+* Explain "hoisting".
+* Describe event bubbling.
+* What's the difference between an "attribute" and a "property"?
+* Why is extending built-in JavaScript objects not a good idea?
+* Difference between document load event and document DOMContentLoaded event?
+* What is the difference between `==` and `===`?
+* Explain the same-origin policy with regards to JavaScript.
+* Make this work:
+```javascript
+duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+```
+* Why is it called a Ternary expression, what does the word "Ternary" indicate?
+* What is `"use strict";`? what are the advantages and disadvantages to using it?
+* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
+* Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+* Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+* Explain what a single page app is and how to make one SEO-friendly.
+* What is the extent of your experience with Promises and/or their polyfills?
+* What are the pros and cons of using Promises instead of callbacks?
+* What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
+* What tools and techniques do you use debugging JavaScript code?
+* What language constructions do you use for iterating over object properties and array items?
+* Explain the difference between mutable and immutable objects.
+  * What is an example of an immutable object in JavaScript?
+  * What are the pros and cons of immutability?
+  * How can you achieve immutability in your own code?
+* Explain the difference between synchronous and asynchronous functions.
+* What is event loop?
+  * What is the difference between call stack and task queue?
+* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
+
 
 #### General Questions:
 
@@ -98,63 +207,6 @@ This file contains a number of front-end interview questions that can be used wh
 * How is responsive design different from adaptive design?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
-
-#### JS Questions:
-
-##### Explain event delegation
-* [Blog Post about What is event Delegation](https://davidwalsh.name/event-delegate)
-
-* Explain how `this` works in JavaScript
-* Explain how prototypal inheritance works
-* What do you think of AMD vs CommonJS?
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
-  * What needs to be changed to properly make it an IIFE?
-* What's the difference between a variable that is: `null`, `undefined` or undeclared?
-  * How would you go about checking for any of these states?
-* What is a closure, and how/why would you use one?
-* What's a typical use case for anonymous functions?
-* How do you organize your code? (module pattern, classical inheritance?)
-* What's the difference between host objects and native objects?
-* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* What's the difference between `.call` and `.apply`?
-* Explain `Function.prototype.bind`.
-* When would you use `document.write()`?
-* What's the difference between feature detection, feature inference, and using the UA string?
-* Explain Ajax in as much detail as possible.
-* What are the advantages and disadvantages of using Ajax?
-* Explain how JSONP works (and how it's not really Ajax).
-* Have you ever used JavaScript templating?
-  * If so, what libraries have you used?
-* Explain "hoisting".
-* Describe event bubbling.
-* What's the difference between an "attribute" and a "property"?
-* Why is extending built-in JavaScript objects not a good idea?
-* Difference between document load event and document DOMContentLoaded event?
-* What is the difference between `==` and `===`?
-* Explain the same-origin policy with regards to JavaScript.
-* Make this work:
-```javascript
-duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
-```
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
-* Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
-* Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
-* Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
-* Explain what a single page app is and how to make one SEO-friendly.
-* What is the extent of your experience with Promises and/or their polyfills?
-* What are the pros and cons of using Promises instead of callbacks?
-* What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-* What tools and techniques do you use debugging JavaScript code?
-* What language constructions do you use for iterating over object properties and array items?
-* Explain the difference between mutable and immutable objects.
-  * What is an example of an immutable object in JavaScript?
-  * What are the pros and cons of immutability?
-  * How can you achieve immutability in your own code?
-* Explain the difference between synchronous and asynchronous functions.
-* What is event loop?
-  * What is the difference between call stack and task queue?
-* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 
 #### Testing Questions:
 
