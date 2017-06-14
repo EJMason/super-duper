@@ -18,7 +18,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
 * [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
 
-##### System Design
+#### System Design
 [The is the go to source for Scalability and Big Data Techniques](http://highscalability.com/)
 ###### Learning Tools
 * [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
