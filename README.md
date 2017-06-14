@@ -8,9 +8,9 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Personal Notes: Google Cloud Notes from a course recently completed](https://ejmason.gitbooks.io/devops-notes/content/)
 
 ## ------------> Interview Prep Tools & Reading <------------
-* [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+[Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
-##### Whiteboarding & Algos
+### Whiteboarding & Algos
 * [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
 * [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
 * [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
@@ -32,13 +32,13 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Article: Load Balancing](http://tutorials.jenkov.com/software-architecture/load-balancing.html)
 * [Article: Database Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
 
-##### Learning Courses
+### Learning Courses
 * [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
 
-##### Tools
+### Tools
 * [CodeNinja: Coding Flashcards](https://codecode.ninja/cards)
 
-##### Misc Other Stuff
+### Misc Other Stuff
 * [My Front End Developer Flash Cards](https://quizlet.com/Eliotmason/folders/front-end-developer-interview-questions)
 
 ---
