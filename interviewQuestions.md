@@ -19,7 +19,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 ### JS Questions:
 
-##### ----- Explain event delegation ----- 
+##### ----- Explain event delegation: ----- 
 > DOM event delegation is a mechanism of responding to ui-events via a single common parent rather than each child, through the magic of event "bubbling" (aka event propagation).
 
 ```javascript
@@ -37,8 +37,9 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
   * Regarding HTML, add an event listener (such as a click) to the parent element of similar children
   * The event will "Bubble UP" when event (clicking) is triggered by the child element
   * e.target will indicate which child element has been triggered, thus use an if/else if perform that specific task
+
 ---
-##### ----- Explain how `this` works in JavaScript ----- 
+##### ----- Explain how `this` works in JavaScript: ----- 
   * "This" refers to the **execution context**, or where (the scope) the code is currently executing
   * Four types of "this":
     * **Calling an Objects method**: when executing an objects method, the "this" keyword provides useful
@@ -72,12 +73,51 @@ document.getElementById("parent-list").addEventListener("click", function(e) {
 
   >In typical object-oriented programming, we need a way of identifying and referring to the object that we’re currently working with. "this" serves the purpose admirably, providing our objects the ability to examine themselves, and point at their own properties.
   [Article: What is scope and how does "this" work?](http://www.digital-web.com/articles/scope_in_javascript/)
+
 ---
-##### Explain how prototypal inheritance works
+##### ----- Explain how prototypal inheritance works: -----
+* Every object has a property called **prototype**
+  * this is a pointer to another object
+  * when setting a method protoype on an object, it puts that method on the pointer object
+  * when invoking that method, it looks up the prototype chain, if it is not an object's property, it will look to the prototype object and invoke it with the context of "this" of the object
+* **Regarding inheritance**
+  * If an object is created, it inherits its protype methods from its parent. That way each new object does not need to have its own method. It can look up the prototype chain to the parent and use that method. It is VERY performant.
 
-* What do you think of AMD vs CommonJS?
+* [Funfunfunction Video Series: The best explanation of prototypes](https://www.youtube.com/watch?v=GhbhD1HR5vk&index=1&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
+* [Article explaining Prototypes](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
 
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+---
+##### ----- What do you think of AMD vs CommonJS? -----
+* [Article: Common.js vs Require.js vs Node Modules vs SystemJS?](https://auth0.com/blog/javascript-module-systems-showdown/)
+* [Reddit: Is AMD dying?](https://www.reddit.com/r/javascript/comments/46sbd2/is_amd_requirejs_dying/)
+
+###### Common.js
+```javascript
+// Exporting --> note: no default export, will break
+exports.myMethod = (word) => console.log(word)
+
+
+// Now import the above into another folder
+const importedMethods = require('./filename.js')
+importedMethods.myMethod('Hello, World!') 
+```
+###### AMD - Asynchronous Module Defenition
+```javascript
+define(['dep1', 'dep2'], function (dep1, dep2) {
+
+  //Define the module value by returning a value.
+  return function () {};
+});
+```
+* Simplicity: CommonJS
+* Async: RequireJS (AMD) and Node (Better loading times)
+
+* Note: Both seem to be on their way out, Node is now asynchronous and with SPA's becoming more popular webpack is on the rise opening the door for **ES6 modules**
+
+* SystemJS? All-in-one
+
+---
+##### Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
 
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
