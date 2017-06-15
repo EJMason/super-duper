@@ -7,7 +7,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Personal Notes: System Design and Whiteboarding Notes I take while learning](https://ejmason.gitbooks.io/interview-prep/content/)
 * [Personal Notes: Google Cloud Notes from a course recently completed](https://ejmason.gitbooks.io/devops-notes/content/)
 
-## ------------> Interview Prep Tools & Reading <------------
+## -------------- Interview Prep Tools & Reading --------------
 [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
 [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
@@ -61,12 +61,13 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [My Front End Developer Flash Cards](https://quizlet.com/Eliotmason/folders/front-end-developer-interview-questions)
 
 ---
-## Awesome Github Repositories
+## -------------- Awesome Github Repositories --------------
 [Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#when-you-get-stuck)
 
 [Emojis](https://github.com/showcases/emoji)
 
-## VS Code Extentions
+---
+## -------------- VS Code Extentions --------------
 
 ###### Code Readability
 * [**Bracket Pair Colorizer**: see brackets easier][vsBracketPair]
