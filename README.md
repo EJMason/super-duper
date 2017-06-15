@@ -67,12 +67,33 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 [Emojis](https://github.com/showcases/emoji)
 
 ## VS Code Extentions
-* [Bracket Pair Colorizer][vsBracketPair]
-* [Relative Path: automatically populates the path relative to current file][vsRealtivepath]
-* [Trailing Spaces: Highlights Trailing Spaces][vsTrailingSpaces]
-* [Sort Lines: Sorts selected text in predefined order][vsSort]
-* [Jumpy: Move cursor around faster][vsJumpy]
 
+###### Code Readability
+* [**Bracket Pair Colorizer**: see brackets easier][vsBracketPair]
+* [**Trailing Spaces**: Highlights Trailing Spaces][vsTrailingSpaces]
+* [**Sort Lines**: Sorts selected text in predefined order][vsSort]
+* [**Prettier**: Auto Format based on ESLint config][vsPretty]
+* [**change-case**: quickly change variables case type][vsChangeCase]
+
+###### Intellisense
+* [**Relative Path**: automatically populates the path relative to current file][vsRealtivepath]
+* [**Emojisense**: Emojis in editor][vsEmoji]
+
+###### Navigation
+* [**Jumpy**: Move cursor around faster][vsJumpy]
+
+###### Tools
+* [**Codemetrics**: Calculates time complexity of code][vsCodemetrics]
+* [**Wallaby**: Test Spec runner inside of VS Code][vsWallaby]
+* [**Node Exec**: Run single files with node][vsNodeExec]
+* [**Quokka**: Live scratchpad for Javascript][vsQuokka]
+
+###### Misc
+* [**Typewriter**: Simulates human typing for gifs][vsTypewriter]
+
+## Misc
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
 
 ## React
 
@@ -84,14 +105,17 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 ## Sockets
 
-## Misc
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
-
 <!-- Here are the links -->
 [vsBracketPair]: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
 [vsRealtivepath]: https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath
 [vsTrailingSpaces]: https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
 [vsSort]: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
 [vsJumpy]: https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy
-[]:
+[vsPretty]: https://marketplace.visualstudio.com/items?itemName=RobinMalfait.prettier-eslint-vscode
+[vsEmoji]: https://marketplace.visualstudio.com/items?itemName=bierner.emojisense
+[vsTypewriter]: https://marketplace.visualstudio.com/items?itemName=dansilver.typewriter
+[vsCodemetrics]: https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics
+[vsWallaby]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode
+[vsNodeExec]: https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node
+[vsQuokka]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+[vsChangeCase]: https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
