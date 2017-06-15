@@ -12,16 +12,23 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
 
-### Whiteboarding & Algos
+### The Interview
+* [How to Interview](http://kelukelu.me/interview/index.html)
+* [How to Ace an Algorithms Interview](http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/)
+* [Questions and Best Answers for Behavioral Questions](https://www.thebalance.com/job-interview-questions-and-answers-2061204)
+
+### Whiteboarding & Algo Practice
 * [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
 * [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
 * [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
 * [CodeRust: Visual Whiteboarding Prep](https://www.educative.io/collection/5642554087309312/5679846214598656)
 * [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
 * [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
+* [Top 10 Algos for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 
 ### System Design
 [highscalability.com: go to source for Scalability and Big Data Techniques](http://highscalability.com/)
+
 ###### Learning Tools
 * [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
 * [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
@@ -56,7 +63,16 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ---
 ## Awesome Github Repositories
 [Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#when-you-get-stuck)
+
 [Emojis](https://github.com/showcases/emoji)
+
+## VS Code Extentions
+* [Bracket Pair Colorizer][vsBracketPair]
+* [Relative Path: automatically populates the path relative to current file][vsRealtivepath]
+* [Trailing Spaces: Highlights Trailing Spaces][vsTrailingSpaces]
+* [Sort Lines: Sorts selected text in predefined order][vsSort]
+* [Jumpy: Move cursor around faster][vsJumpy]
+
 
 ## React
 
@@ -70,3 +86,12 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 ## Misc
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
+
+<!-- Here are the links -->
+[vsBracketPair]: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+[vsRealtivepath]: https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath
+[vsTrailingSpaces]: https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
+[vsSort]: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+[vsJumpy]: https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy
+[]:
