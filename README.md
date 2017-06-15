@@ -69,6 +69,24 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ---
 ## -------------- VS Code Extentions --------------
 
+* [ansible-autocomplete][]
+* [Atom One Dark Theme][]
+* [Auto Close Tag][]
+* [Better Comments][]
+* [Charcoal Oceanic Next][]
+* [Debugger For Chrome][]
+* [DotENV][]
+* [ESLint][]
+* [Git History][]
+* [Git Lense][]
+* [gitignore][]
+* [Guides][]
+* [npm Intellisense][]
+* [Project Manager][]
+* [Sublime Babel][]
+* [Tomorrow Kit (Sublime Babel)][]
+* [Simple Icon Theme][]
+
 ###### Code Readability
 * [**Bracket Pair Colorizer**: see brackets easier][vsBracketPair]
 * [**Trailing Spaces**: Highlights Trailing Spaces][vsTrailingSpaces]
