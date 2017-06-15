@@ -29,7 +29,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
 * [CodeRust: Visual Whiteboarding Prep](https://www.educative.io/collection/5642554087309312/5679846214598656)
 * [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
-* [Code Fights: Interview Question Practice](https://codefights.com/interview-practice?utm_source=google&utm_medium=cpc&utm_term={landingpage}&utm_campaign=InterviewPrep&utm_content={adcopy}&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbfx8q1WL2X3V87xTbw4wQjCyPoJ75D1nBvfaAsDgSdPv7p9MLkZ0jhoCNIEQAvD_BwE)
+* [Code Fights: Interview Question Practice](https://codefights.com/interview-practice?utm_source=google&utm_medium=cpc&utm_term={landingpage}&utm_campaign=InterviewPrep&utm_content={adcopy}&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbfx8q1WL2X3V87xTbw4wQjCyPoJ75D1nBvfaAsDgSdPv7p9MLkZ0jhoCNIEQAvD_BwE  )
 * [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
 * [Top 10 Algos for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 
