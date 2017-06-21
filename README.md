@@ -59,7 +59,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 
 ### Learning Courses
-* [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
+- [ ] [Coursera: Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
 
 ### Tools
 * [CodeNinja: Coding Flashcards](https://codecode.ninja/cards)
