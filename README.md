@@ -8,14 +8,14 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Personal Notes: Google Cloud Notes from a course recently completed](https://ejmason.gitbooks.io/devops-notes/content/)
 
 ## -------------- Interview Prep Tools & Reading --------------
-* [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-* [Github: Repo of interview resources](https://github.com/andreis/interview)
-[You don't know JS](https://github.com/getify/You-Dont-Know-JS)
+- [ ] [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+- [ ] [Github: Repo of interview resources](https://github.com/andreis/interview)
+- [ ] [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ### The Interview
-* [How to Interview](http://kelukelu.me/interview/index.html)
-* [How to Ace an Algorithms Interview](http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/)
-* [Questions and Best Answers for Behavioral Questions](https://www.thebalance.com/job-interview-questions-and-answers-2061204)
+- [ ] [How to Interview](http://kelukelu.me/interview/index.html)
+- [ ] [How to Ace an Algorithms Interview](http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/)
+- [ ] [Questions and Best Answers for Behavioral Questions](https://www.thebalance.com/job-interview-questions-and-answers-2061204)
 
 ### Realtime Mock Interviews
 * [Pramp: Free mock interviews with other engineers](https://www.pramp.com/#/)
@@ -24,38 +24,38 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [gainlio.co: Mock Interviews from real professionals](http://www.gainlo.co/#!/)
 * [[EXPENSIVE] Interview Kickstart: Interviewing Bootcamp](http://interviewkickstart.com/)
 ### Whiteboarding & Algo Practice
-* [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
-* [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
-* [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
-* [CodeRust: Visual Whiteboarding Prep](https://www.educative.io/collection/5642554087309312/5679846214598656)
-* [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
-* [Code Fights: Interview Question Practice](https://codefights.com/interview-practice?utm_source=google&utm_medium=cpc&utm_term={landingpage}&utm_campaign=InterviewPrep&utm_content={adcopy}&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbfx8q1WL2X3V87xTbw4wQjCyPoJ75D1nBvfaAsDgSdPv7p9MLkZ0jhoCNIEQAvD_BwE  )
-* [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
-* [Top 10 Algos for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+- [ ] [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
+- [ ] [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
+- [ ] [TripleByte: Witeboarding & Job Placement](https://triplebyte.com/)
+- [ ] [CodeRust: Visual Whiteboarding Prep](https://www.educative.io/collection/5642554087309312/5679846214598656)
+- [ ] [Leet Code: Big Companies Whiteboard Problems](https://leetcode.com/)
+- [ ] [Code Fights: Interview Question Practice](https://codefights.com/interview-practice?utm_source=google&utm_medium=cpc&utm_term={landingpage}&utm_campaign=InterviewPrep&utm_content={adcopy}&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbfx8q1WL2X3V87xTbw4wQjCyPoJ75D1nBvfaAsDgSdPv7p9MLkZ0jhoCNIEQAvD_BwE  )
+- [ ] [Book: Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=34VM04CT2WHBDAFCK3TM)
+- [ ] [Top 10 Algos for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 
 ### System Design
 [highscalability.com: go to source for Scalability and Big Data Techniques](http://highscalability.com/)
 
 ###### Learning Tools
-* [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
-* [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [ ] [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
+- [ ] [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
 ###### Videos
-* [[video] AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
-* [[video] CS75 Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
-* [[video 2011] Twitter: Storing Data](https://www.youtube.com/watch?v=5cKTP36HVgI)
-* [[video] Twitter: Timelines at scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-* [[video 2011] Youtube: Scalability](https://www.youtube.com/watch?v=w5WVu624fY8)
+- [ ] [[video] AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
+- [x] [[video] CS75 Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
+- [ ] [[video 2011] Twitter: Storing Data](https://www.youtube.com/watch?v=5cKTP36HVgI)
+- [ ] [[video] Twitter: Timelines at scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+- [ ] [[video 2011] Youtube: Scalability](https://www.youtube.com/watch?v=w5WVu624fY8)
 ###### Articles
-* [Articles: Scalability for Dummies](http://www.lecloud.net/tagged/scalability)  |  [Part I: Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)  |  [Part II: Databases](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)  |  [Part III: Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)  |  [Part IV: Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-* [Article: Scalable Architectures](http://tutorials.jenkov.com/software-architecture/scalable-architectures.html)
-* [Article: Load Balancing](http://tutorials.jenkov.com/software-architecture/load-balancing.html)
-* [Article: Database Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+- [x] [Articles: Scalability for Dummies](http://www.lecloud.net/tagged/scalability)  |  [Part I: Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)  |  [Part II: Databases](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)  |  [Part III: Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)  |  [Part IV: Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+- [ ] [Article: Scalable Architectures](http://tutorials.jenkov.com/software-architecture/scalable-architectures.html)
+- [ ] [Article: Load Balancing](http://tutorials.jenkov.com/software-architecture/load-balancing.html)
+- [ ] [Article: Database Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
 ###### Real Life Architectures
-* [PlentyOfFish: How to scale as a single engineer](http://highscalability.com/plentyoffish-architecture)
-* [Uber: Scaling Fast](http://highscalability.com/blog/2016/10/12/lessons-learned-from-scaling-uber-to-2000-engineers-1000-ser.html)
-* [Facebook: Handling 800k simultaneous viewers live](http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html)
-* [Kraken.io: Scaling image optimisation](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-* [Twitter: 3,000 image uploads per second](http://highscalability.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html)
+- [ ] [PlentyOfFish: How to scale as a single engineer](http://highscalability.com/plentyoffish-architecture)
+- [ ] [Uber: Scaling Fast](http://highscalability.com/blog/2016/10/12/lessons-learned-from-scaling-uber-to-2000-engineers-1000-ser.html)
+- [ ] [Facebook: Handling 800k simultaneous viewers live](http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html)
+- [ ] [Kraken.io: Scaling image optimisation](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+- [ ] [Twitter: 3,000 image uploads per second](http://highscalability.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html)
 
 
 ### Learning Courses
