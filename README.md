@@ -37,7 +37,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 [highscalability.com: go to source for Scalability and Big Data Techniques](http://highscalability.com/)
 
 ###### Learning Tools
-- [ ] [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
+- [x] [HiredInTech: Whiteboarding & System Design](https://www.hiredintech.com/)
 - [ ] [Github: System Design Primer](https://github.com/donnemartin/system-design-primer)
 ###### Videos
 - [ ] [[video] AWS - Scaling up to your first 10 Million Users](https://www.youtube.com/watch?v=vg5onp8TU6Q&feature=youtu.be)
