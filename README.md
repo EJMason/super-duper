@@ -73,6 +73,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ## -------------- Cool Stuff: General Articles, Videos, Repos, etc --------------
 ### Articles
 * [Great article on how to design applications/algorithms and how to attack them][articleCppDesignTutorial]
+* [What Every Computer Scientist Should Know About Floating-Point Arithmetic][articleFltpt]
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
@@ -155,3 +156,4 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 <!-- Cool stuff I found: links -->
 [articleCppDesignTutorial]: http://www.learncpp.com/cpp-tutorial/1-10b-how-to-design-your-first-programs/
+[articleFltpt]: http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
