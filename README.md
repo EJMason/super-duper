@@ -3,6 +3,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 #### Current Study
 - [ ] [Learn C++ Articles: learncpp.com][a_learncpp]
+  - **Completed**: Ch.1 - Ch.3 
 - [ ] [Coursera: Algorithms and Data Structures, UCSD][a_courseraDataStruct]
 - [ ] [FreeCodeCamp: Open Source][a_freecodecamp]
 - [ ] [System Design: HiredInTech][a_hiredInTech]
