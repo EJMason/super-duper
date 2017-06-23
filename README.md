@@ -1,6 +1,25 @@
 # super-duper
 This is my list of stuff that I save for later. Articles, Tools, Videos, etc that have helped me along the way!
 
+#### Current Study
+- [ ] [Learn C++ Articles: learncpp.com][a_learncpp]
+- [ ] [Coursera: Algorithms and Data Structures, UCSD][a_courseraDataStruct]
+- [ ] [FreeCodeCamp: Open Source][a_freecodecamp]
+- [ ] [System Design: HiredInTech][a_hiredInTech]
+- [ ] [Interview Cake: Whiteboarding][a_interviewCake]
+- [ ] [Front End Developer Interview Questions][a_frontEndDevQs]
+- [ ] [Anki Flash Cards][a_ankiWeb]
+
+<!-- Here are the links: YOU CANT SEE THESE -->
+[a_learncpp]: http://www.learncpp.com/#Chapter3
+[a_courseraDataStruct]: https://www.coursera.org/specializations/data-structures-algorithms
+[a_freecodecamp]: https://www.freecodecamp.com/ejmason
+[a_hiredInTech]: https://www.hiredintech.com/
+[a_interviewCake]: https://www.interviewcake.com/
+[a_frontEndDevQs]: https://github.com/h5bp/Front-end-Developer-Interview-Questions
+[a_ankiWeb]: https://apps.ankiweb.net/
+<!-- end links -->
+
 #### My Gitbooks & Notes
 * [Personal Notes: Notes I take about Algos, sorting, and other Concepts](https://ejmason.gitbooks.io/my-personal-notes/content/)
 * [Personal Notes: C++ Algorithms Course from UCSD](https://ejmason.gitbooks.io/algorithms/content/)
@@ -72,7 +91,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ---
 ## -------------- Cool Stuff: General Articles, Videos, Repos, etc --------------
 ### Articles
-* [Great article on how to design applications/algorithms and how to attack them][articleCppDesignTutorial]
+* [Great article on how to design applications/algorithms: step-by-step approach][articleCppDesignTutorial]
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic][articleFltpt]
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
