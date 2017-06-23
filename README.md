@@ -70,13 +70,21 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Freecodecamp.com open source for non-profits](https://www.freecodecamp.com/)
 
 ---
+## -------------- Cool Stuff: General Articles, Videos, Repos, etc --------------
+### Articles
+* [Great article on how to design applications/algorithms and how to attack them][articleCppDesignTutorial]
+
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
+
+---
 ## -------------- Awesome Github Repositories --------------
 [Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#when-you-get-stuck)
 
 [Emojis](https://github.com/showcases/emoji)
 
 ---
-## -------------- VS Code Extentions --------------
+## -------------- VS Code Stuff --------------
 
 * [ansible-autocomplete][]
 * [Atom One Dark Theme][]
@@ -116,12 +124,9 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [**Node Exec**: Run single files with node][vsNodeExec]
 * [**Quokka**: Live scratchpad for Javascript][vsQuokka]
 
-###### Misc
+###### Weird Random Extentions
 * [**Typewriter**: Simulates human typing for gifs][vsTypewriter]
 
-## Misc
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Linux/Unix Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
 
 ## React
 
@@ -147,3 +152,6 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 [vsNodeExec]: https://marketplace.visualstudio.com/items?itemName=miramac.vscode-exec-node
 [vsQuokka]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
 [vsChangeCase]: https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
+
+<!-- Cool stuff I found: links -->
+[articleCppDesignTutorial]: http://www.learncpp.com/cpp-tutorial/1-10b-how-to-design-your-first-programs/
