@@ -3,7 +3,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 #### Current Study
 - [ ] [Learn C++ Articles: learncpp.com][a_learncpp]
-  - **Completed**: Ch.1 - Ch.3 
+  - **Completed**: ~~1~~  ~~2~~  ~~3~~  4  5  6  7  8  9  10
 - [ ] [Coursera: Algorithms and Data Structures, UCSD][a_courseraDataStruct]
 - [ ] [FreeCodeCamp: Open Source][a_freecodecamp]
 - [ ] [System Design: HiredInTech][a_hiredInTech]
@@ -27,6 +27,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [Personal Notes: System Design and Whiteboarding Notes I take while learning](https://ejmason.gitbooks.io/interview-prep/content/)
 * [Personal Notes: Google Cloud Notes from a course recently completed](https://ejmason.gitbooks.io/devops-notes/content/)
 
+---
 ## -------------- Interview Prep Tools & Reading --------------
 - [ ] [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [ ] [Github: Repo of interview resources](https://github.com/andreis/interview)
