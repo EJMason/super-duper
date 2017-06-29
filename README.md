@@ -10,6 +10,8 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 - [ ] [Interview Cake: Whiteboarding][a_interviewCake]
 - [ ] [Front End Developer Interview Questions][a_frontEndDevQs]
 - [ ] [Anki Flash Cards][a_ankiWeb]
+- [ ] [Udemy: GraphQL][a_graphQL]
+
 
 <!-- Here are the links: YOU CANT SEE THESE -->
 [a_learncpp]: http://www.learncpp.com/#Chapter3
@@ -19,6 +21,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 [a_interviewCake]: https://www.interviewcake.com/
 [a_frontEndDevQs]: https://github.com/h5bp/Front-end-Developer-Interview-Questions
 [a_ankiWeb]: https://apps.ankiweb.net/
+[a_graphQL]: https://www.udemy.com/graphql-with-react-course/learn/v4/overview
 <!-- end links -->
 
 #### My Gitbooks & Notes
