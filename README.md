@@ -47,7 +47,7 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 * [[Paid] careerCup: Mock Interviews & Career coaching from real employees](https://www.careercup.com/interview)
 * [gainlio.co: Mock Interviews from real professionals](http://www.gainlo.co/#!/)
 * [[$$$] Outco: Interview Bootcamp in SF and Remote](https://outco.io/onsite)
-* [[$$$] Interview Kickstart: Interviewing Bootcamp](http://interviewkickstart.com/)
+
 ### Whiteboarding & Algo Practice
 - [ ] [Interview Cake: Whiteboarding with Algo learning](https://www.interviewcake.com/)
 - [ ] [Interview Bit: Whiteboarding & Job Placement](https://www.interviewbit.com/)
