@@ -151,8 +151,15 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 
 ###### Weird Random Extentions
 * [**Typewriter**: Simulates human typing for gifs][vsTypewriter]
+---
 
+## Development Tools
+* [lite-server][dtLiteSertver]
+  * Good for live reload when no webpack
+* [ttab][dtTTab]
+  * Useful to open new tabs in terminal for yarn scripts
 
+---
 ## React
 
 ## Redux
@@ -162,6 +169,10 @@ This is my list of stuff that I save for later. Articles, Tools, Videos, etc tha
 ## Express
 
 ## Sockets
+
+<!-- DEVELOPMENT TOOLS LINKS -->
+[dtLiteSertver]: https://github.com/johnpapa/lite-server
+[dtTTab]: https://github.com/mklement0/ttab
 
 <!-- Here are the links -->
 [vsBracketPair]: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
